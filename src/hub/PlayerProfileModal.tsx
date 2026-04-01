@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { X, Trophy, Star, Crown, Target, Activity, Coins, Shield, Medal } from 'lucide-react';
+import { X, Trophy, Star, Crown, Target, Activity, Coins, Medal } from 'lucide-react';
 import { soundEngine } from '../core/SoundEngine';
 
 interface PlayerProfileModalProps {

@@ -64,7 +64,6 @@ export function HubScreen({ onLaunchGame, appState, openSettings }: HubScreenPro
   const spinReady = appState.canSpinLuckyWheel();
   const levelInfo = appState.getLevelInfo(appState.stats.xp);
   
-  const isComeback = appState.stats.comebackEligible;
 
   return (
     <div style={{ position: 'relative', height: '100%', overflowY: 'auto' }}>
